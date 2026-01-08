@@ -1,3 +1,11 @@
+# Rascunho: Entropia e Coerência (Draft Document)
+
+**⚠️ AVISO / WARNING:** Este é um documento experimental contendo notas de pesquisa em formato livre e não estruturado. O conteúdo representa pensamentos exploratórios e não deve ser considerado como material acadêmico formal.
+
+---
+
+## Notas Originais (Stream of Consciousness)
+
 Bitraf Ech""o.§|tes+& (-¶]Coerencia entropia &""datas
 
 em vista como singular o efeijogi da entropia to do echo"[√®-√®|+& [3 6 9|§" de 
@@ -9,3 +17,7 @@ eurafaelmeloreisteorizarswuares
 aoenas uma batalha ↑ em entendimento do que eh rnn. que usa estalisticas nada de usi do bit nos estados do spin do eletron determinado em c(olapsos doscalculos) e nada de qualquer forma Quantum 
 formam
 e
+
+---
+
+**Nota:** Para conteúdo estruturado e formalizado, consulte [dissertacao-principal.md](dissertacao-principal.md) e outros documentos na pasta docs/.
