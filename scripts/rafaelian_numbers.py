@@ -107,7 +107,16 @@ class RafaelianNumbers:
         multiple of the resonance constant. Formula: value + (resonance - (value % resonance))
         ensures the result is the smallest value >= original that is divisible by resonance.
         
-        Example: If value=100 and resonance=21, result=105 (next multiple of 21)
+        Mathematical proof:
+        - Let r = resonance, v = value, k = v % r (remainder when v divided by r)
+        - Then v = qr + k for some integer q
+        - Result = v + (r - k) = qr + k + r - k = qr + r = (q+1)r
+        - Therefore result is always a multiple of r
+        
+        Example: If value=100 and resonance=21:
+        - 100 % 21 = 16 (since 100 = 4×21 + 16)
+        - Result = 100 + (21 - 16) = 100 + 5 = 105
+        - Verify: 105 = 5×21 ✓ (next multiple of 21 after 100)
         """
         # Use resonance constants cyclically based on position
         resonance_idx = (n // 7) % len(self.RESONANCE_CONSTANTS)
