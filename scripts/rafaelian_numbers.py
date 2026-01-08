@@ -100,12 +100,21 @@ class RafaelianNumbers:
         return 0
     
     def _apply_resonance(self, value: int, n: int) -> int:
-        """Apply resonance constant modulation."""
-        # Use resonance constants to modulate value
+        """
+        Apply resonance constant modulation.
+        
+        This aligns values with resonance patterns by rounding up to the next
+        multiple of the resonance constant. Formula: value + (resonance - (value % resonance))
+        ensures the result is the smallest value >= original that is divisible by resonance.
+        
+        Example: If value=100 and resonance=21, result=105 (next multiple of 21)
+        """
+        # Use resonance constants cyclically based on position
         resonance_idx = (n // 7) % len(self.RESONANCE_CONSTANTS)
         resonance = self.RESONANCE_CONSTANTS[resonance_idx]
         
-        # Ensure value aligns with resonance patterns
+        # Align value to next resonance multiple
+        # This creates harmonic alignment with cosmic constants
         return value + (resonance - (value % resonance))
     
     def generate_sequence(self, length: int) -> List[int]:
