@@ -1,5 +1,9 @@
 # RafaelIA: Estruturas Fractais, Bitraf Multidimensional e Números Rafaelianos
 
+**Estado:** `ACTIVE`  
+**Proprietário lógico:** `research-governance`  
+**Repositório:** [`instituto-rafael/Bitraf-Bit-quantum`](https://github.com/instituto-rafael/Bitraf-Bit-quantum)
+
 **Uma Nova Fundação para Ciência Computacional Quântica e Cosmologia Simbiótica**
 
 ---
@@ -105,7 +109,7 @@ Calculadora com 69+ variações de derivadas, antiderivadas, inversas e reversas
 
 ---
 
-## �� Como Citar
+## 💬 Como Citar
 
 ```bibtex
 @misc{reis2026rafaelia,
